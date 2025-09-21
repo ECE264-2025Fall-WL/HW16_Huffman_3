@@ -35,11 +35,11 @@ For example, in the following binary tree the preorder traversal would be [5, 6,
 # Huffman Tree File
 Each node of the huffman tree is written as
 
-  [_data_,frequency_]
+  [_data_,frequency]
 
 If a node has no data (i.e. it is a parent node) then the data field will be empty and the node will look like this
 
-  [,frequency_]
+  [,frequency]
 
 There are no spaces or newlines in the tree files (unless a space is being stored as a piece of data). You can assume all the huffman tree files are valid. 
 
