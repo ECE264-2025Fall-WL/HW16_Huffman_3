@@ -26,7 +26,7 @@ In this assignment, the huffman tree is written in preorder so that is the one w
   2. Left
   3. Right
 For example, in the following binary tree the preorder traversal would be [5, 6, 2, 1, 4]
-<img width="960" height="720" alt="Untitled drawing (1)" src="https://github.com/user-attachments/assets/10264de9-f019-4040-92f7-4a2f122a4890" />
+<img width="960" height="720" alt="Untitled drawing (2)" src="https://github.com/user-attachments/assets/1a5318c1-0b8b-41bb-be5d-dadfe3e6c1f5" />
 
 # Huffman Tree File
 Each node of the huffman tree is written as
