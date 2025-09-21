@@ -44,10 +44,12 @@ If a node has no data (i.e. it is a parent node) then the data field will be emp
 There are no spaces or newlines in the tree files (unless a space is being stored as a piece of data). You can assume all the huffman tree files are valid. 
 
 # Testing 
-Four test cases have been provided to you, you can run each of them individually with the command
+Six test cases have been provided to you, you can run each of them individually with the command
+
   make test#
 
 or you can run them all at once with the command
+
   make testall
 
 # Instructions
