@@ -13,7 +13,7 @@ This function should compress the data from the input file and store the compres
 # Decompressing a Huffman Compressed File
 The decompress function takes in three parameters:
   1. char *input - the input filename, this should be a binary (.b) file
-  2. char *huffmanTree - the filename of the file that contains the huffman tree used to compress the data in the input file, this should be a binary file {.b)
+  2. char *huffmanTree - the file that contains the huffman tree used to compress the data in the input file, this should be a binary file (.b)
   3. char *output - the output filenme, this should be a text (.txt) file
 This function should decode the data from the input file using the huffman tree provided and store the decompressed version of the data into the output text file. If successful, decompress should return 1, otherwise, return 0.
 
