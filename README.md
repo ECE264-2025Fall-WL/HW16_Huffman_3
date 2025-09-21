@@ -7,6 +7,7 @@ This is the last of three homeworks on Huffman Compression. In this homework you
 The compression function takes in two parameters:
   1. char *input - the input filename, this should be a text (.txt) file
   2. char *output - the output filename, this should be a binary (.b) file
+
 This function should compress the data from the input file and store the compressed version of the data in the binary output file. If successful, compress should return 1, otherwise, return 0.
 
 # Decompressing a Huffman Compressed File
