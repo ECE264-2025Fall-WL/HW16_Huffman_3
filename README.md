@@ -1,5 +1,5 @@
 # HW 16 - Huffman Compression 3
-This is the last of three homeworks on Huffman Compression. In this homework you will be using the functions you wrote in HW14 and HW15 to decompress and decompress text and binary files. The functions you will need to implement are:
+This is the last of three homeworks on Huffman Compression. In this homework you will be using the functions you wrote in HW14 and HW15 to compress and decompress text and binary files. The functions you will need to implement are:
   1. int compress(char* input, char* output);
   2. int decompress(char* input, char* huffmanTree, char* output);
 
