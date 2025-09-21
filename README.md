@@ -23,10 +23,12 @@ Huffman trees are a type of binary tree and, therefore, can be stored in the sam
   1. Preorder
   2. In order
   3. Postorder
+
 In this assignment, the huffman tree is written in preorder so that is the one we will be focusing on. Preorder traversal follows the order
   1. Root
   2. Left
   3. Right
+
 For example, in the following binary tree the preorder traversal would be [5, 6, 2, 1, 4]
 <img width="960" height="720" alt="Untitled drawing (2)" src="https://github.com/user-attachments/assets/1a5318c1-0b8b-41bb-be5d-dadfe3e6c1f5" />
 
