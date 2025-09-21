@@ -35,13 +35,16 @@ For example, in the following binary tree the preorder traversal would be [5, 6,
 # Huffman Tree File
 Each node of the huffman tree is written as
   [_data_,__frequency_]
-If a node has no date (i.e. it is a parent node) then the data field will be empty and the node will look like this
+
+If a node has no data (i.e. it is a parent node) then the data field will be empty and the node will look like this
   [,__frequency_]
-There are no spaces or newlines in the tree files (unless a space is being stored as a piece of data. You can assume all the input huffman tree files are valid. 
+
+There are no spaces or newlines in the tree files (unless a space is being stored as a piece of data). You can assume all the huffman tree files are valid. 
 
 # Testing 
 Four test cases have been provided to you, you can run each of them individually with the command
   make test#
+
 or you can run them all at once with the command
   make testall
 
@@ -49,4 +52,5 @@ or you can run them all at once with the command
 Implement
   1. int compress(char* input, char* output);
   2. int decompress(char* input, char* huffmanTree, char* output);
+
 and turn in your hw16.c file to gradescope.
