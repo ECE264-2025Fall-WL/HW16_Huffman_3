@@ -44,6 +44,7 @@ int main(int argc, char** argv)
         fseek(output, 0, SEEK_END);
         int size = ftell(output);
         printf("%d\n", size);
+        fclose(output);
     }
     // option 2: decompress the input file
     else if (*argv[1] == '2')
@@ -75,3 +76,4 @@ int main(int argc, char** argv)
 
     }
 }
+
