@@ -15,28 +15,31 @@ hw16: $(OBJS)
 .c.o:
 	$(GCC) -c $*.c
 
+clean:
+	rm -f vgcore.* *.o hw12 *.disc *.txt *.b
+
 testall: test1 test2 test3 test4 test5 test6
 
 test1: hw16
-	./hw16 1 inputs/test1 outputs/test1 >> output1
-	diff output1 37 
+	./hw16 1 inputs/test1.txt outputs/test1.b > output1
+	diff -w output1 expected/test1 
 
 test2: hw16
-	./hw16 1 inputs/test2 outputs/test2 >> output2
-	diff output2 236
+	./hw16 1 inputs/test2.txt outputs/test2.b > output2
+	diff -w output2 expected/test2
 
 test3: hw16
-	./hw16 1 inputs/test3 outputs/test3 >> ouput3
-	diff output3 237
+	./hw16 1 inputs/test3.txt outputs/test3.b > output3
+	diff -w output3 expected/test3
 
 test4: hw16
-	./hw16 2 inputs/test4 outputs/test4 >> output4
-	diff expected/test4 output4
-
-test4: hw16
-	./hw16 2 inputs/test5 outputs/test5 >> output5
-	diff expected/test5 output5
+	./hw16 2 inputs/test4.b trees/test4.b outputs/test4.txt
+	diff outputs/test4.txt expected/test4
 
 test5: hw16
-	./hw16 2 inputs/test6 outputs/test6 >> output6
-	diff expected/test6 output6
+	./hw16 2 inputs/test5.b trees/test5.b outputs/test5.txt
+	diff outputs/test5.txt expected/test5
+
+test6: hw16
+	./hw16 2 inputs/test6.b trees/test6.b outputs/test6.txt
+	diff outputs/test6.txt expected/test6
