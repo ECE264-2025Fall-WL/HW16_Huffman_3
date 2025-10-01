@@ -3,6 +3,8 @@ This is the last of three homeworks on Huffman Compression. In this homework you
   1. int compress(char* input, char* output);
   2. int decompress(char* input, char* huffmanTree, char* output);
 
+**Important Note**: You are not required to use bitwise operators for this homework. Each digit in the huffman sequences should be written as **1 byte** to the output file instead of 1 bit. Please pay careful attention to this as the autograder will fail if you do not follow these instructions. In the real-world, the each digit in the sequence would be a bit but in this homework we are using 1 byte per digit so that you are not required to use bitwise operators.
+
 # Compressing a File with Huffman Compression
 The compression function takes in two parameters:
   1. char *input - the input filename, this should be a text (.txt) file
